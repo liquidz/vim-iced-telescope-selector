@@ -9,7 +9,7 @@ endif
 
 if !exists('g:vim_iced_version')
      \ || g:vim_iced_version < 30801
-  echoe 'iced-ddu-selector requires vim-iced v3.8.1 or later.'
+  echoe 'iced-telescope-selector requires vim-iced v3.8.1 or later.'
   finish
 endif
 
