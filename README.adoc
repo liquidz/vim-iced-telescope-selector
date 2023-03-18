@@ -1,0 +1,22 @@
+= vim-iced-telescope-selector
+
+vim-iced selector for telescope.nvim.
+
+== Requires
+
+- https://github.com/nvim-telescope/telescope.nvim[nvim-telescope/telescope.nvim]
+- https://github.com/liquidz/vim-iced[liquidz/vim-iced] (v3.8.1 or later)
+
+== Configuration
+
+.selector configuration
+[source,vim]
+----
+let g:iced#selector#search_order = ['telescope']
+----
+
+== License
+
+Copyright (c) 2023 http://twitter.com/uochan[Masashi Iizuka]
+
+Distributed under the MIT License.
